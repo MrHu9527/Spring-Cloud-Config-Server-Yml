@@ -1,1 +1,6 @@
-
+configuration:
+  environment: dev
+server:
+  port: 8000
+test:
+variable: "测试下配置中心是否获取到配置"
