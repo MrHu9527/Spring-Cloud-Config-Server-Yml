@@ -43,6 +43,6 @@ management:
       exposure:
         include: "*"
 
-name: tony
-age: 29
+name: '{cipher}48cdb43262d11f4f1d3a33171f110ed3f469587acb9aeb2c8e196fd99b19cb71'
+age: 25
 password: 123456789
