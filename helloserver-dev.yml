@@ -8,6 +8,7 @@ spring:
       destination: bus-q
       trace:
         enabled: true
+      id: ${spring.application.name}:${spring.profiles.active}:${random.uuid}
     stream:
       binders:
         rabbit1:
